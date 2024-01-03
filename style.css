@@ -31,9 +31,22 @@ header{
     background: linear-gradient(to right, #ffffff 0%, #ffffff 55%, #b09948d2 40%, #ffd900e0 100%); /* Gradient background */
 }
 .hero-text {
-    max-width: 400px;
+    max-width: 600px;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width: 950px) {
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to bottom, #ffffff 0%, #ffffff 45%, #b09948d2 35%, #ffd900e0 100%); /* Gradient background for smaller screens */
+
+}
+
+.hero-img-container {
+      margin-top: 20px;
+}
 }
 .hero-img-container {
     max-width: 400px;
@@ -76,6 +89,25 @@ header{
     padding: 10px;
     text-align: center;
 }
+@media (min-width: 200px) {
+    .gallery-section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .gallery-section {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media (min-width: 1200px) {
+    .gallery-section {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
 footer {
     background-color: #333;
     color: #fff;
