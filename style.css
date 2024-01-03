@@ -31,7 +31,7 @@ header{
     background: linear-gradient(to right, #ffffff 0%, #ffffff 55%, #b09948d2 40%, #ffd900e0 100%); /* Gradient background */
 }
 .hero-text {
-    max-width: 600px;
+    max-width: 450px;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
