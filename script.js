@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
 
-var images = ["/assets/desbebe.jpg", "/assets/lematin.png", "/assets/azipowder.png"];
+var images = ["./assets/desbebe.jpg", "./assets/lematin.png", "./assets/azipowder.png"];
 
 var index = 0;
 
