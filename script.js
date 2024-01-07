@@ -5,7 +5,7 @@ var images = ["./assets/desbebe.jpg", "./assets/lematin.png", "./assets/azipowde
 var index = 0;
 
 function updateImage() {
-    image.style.opacity = 0; // Set opacity to 0 before changing the image
+    image.style.opacity = 0.1; // Set opacity to 0 before changing the image
 
     setTimeout(function () {
       image.src = images[index];

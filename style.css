@@ -23,6 +23,23 @@ header{
     border-radius: 5px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Navigation Bar Styles */
+nav {
+    
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+  }
+
+
 .hero-section {
     display: flex;
     align-items: center;
@@ -120,6 +137,26 @@ footer {
     width: 50px; /* Adjust the size as needed */
     height: auto; /* Maintains aspect ratio */
 }
-.footer-address {
-    text-align: right;
+
+@media (min-width: 100px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 250px;
+    }
 }
+
+@media (min-width: 768px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 450px;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 550px;
+    }
+}
+
+
