@@ -1,0 +1,162 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #2f2d2d;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    
+}
+#logo {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+#contact-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navigation Bar Styles */
+nav {
+    
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    position: relative;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(55, 43, 8, 0.73)),
+    url('./assets/hero-background.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px; /* Adjust the padding as needed */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    /* margin-bottom: 20px; */
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 0; /* Remove default margin for better alignment */
+}
+
+.distributors-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .distributor-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allows logos to wrap to the next line */
+    
+  }
+  
+  .distributor {
+     /* Adjust the width as needed for three logos per row */
+    margin-right: 5%; /* Adjust the spacing between logos */
+    margin-bottom: 20px;
+    
+  }
+
+  @media (min-width: 200px) {
+    .distributor {
+        width: 60%;
+    }
+}
+@media (min-width: 768px) {
+    .distributor {
+        width: 25%;
+    }
+}
+  .distributor img{
+    border-radius: 10px;
+  }
+  
+  .distributor img {
+    width: 100%; /* Ensure the image takes up the entire width of its container */
+    height: auto;
+    max-width: 300px; /* Adjust the maximum width of the logos */
+  }
+  
+  .map-image {
+    flex-grow: 1; /* Allows the map to take up the remaining space */
+    max-width: calc(100% - 45%); /* Adjust the maximum width based on logo widths */
+    overflow: hidden; /* Hide any overflow beyond the maximum width */
+  }
+  
+  .map-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adds a rounded corner effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }    
+
+
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+.footer-address {
+    text-align: right;
+}
+
+@media (min-width: 100px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 450px;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .footer-address p{
+        text-align: right;
+        max-width: 550px;
+    }
+}
