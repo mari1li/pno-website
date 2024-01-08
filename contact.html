@@ -21,19 +21,25 @@
         </nav>
     </header>
 
-    <section class="contact-form-section">
-        <form id="contact-form" action="process-form.php" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+    <section class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contact-left">
+            
+            <div class="contact-left-title">
+                <h2 class="contact-left">Liên Hệ Công Ty</h2>
+                <hr style="height:2px;border-width:0; width: 400px; color:rgb(241, 233, 206);background-color:rgb(177, 170, 97)">
+            </div>
+            <input type="hidden" name="access_key" value="ec1e3be9-11fb-4689-9b81-c5faf52d81c1">
+
+          <input type="text" name="name" placeholder="Họ Tên" class = "contact-inputs" required>
+          <input type="tel" name="telenum" placeholder="Số Điện Thoại" class = "contact-inputs" required>
+          <input type="email" name="email" placeholder="Email" class = "contact-inputs" required>
       
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required>
-      
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-      
-          <button type="submit" id="submit-btn">Submit</button>
+          
+          <button type="submit">Gửi</button>
         </form>
+        <div class="contact-right">
+            <img src="./assets/pnologo.png" alt="">
+        </div>
       </section> 
       <footer>
         <div class="footer-logo">
