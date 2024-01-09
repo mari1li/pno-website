@@ -33,14 +33,14 @@ nav {
     color: #fff;
     padding: 10px;
     text-align: right;
-  }
+}
 
-  nav a {
+nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
     font-family: Arial, sans-serif;
-  }
+}
 
   /* .slider {
     width: 100%;
@@ -194,7 +194,7 @@ footer {
         text-align: right;
         max-width: 450px;
     }
-  }
+}
 
 @media (min-width: 1200px) {
     .footer-address p{
