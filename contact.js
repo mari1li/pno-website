@@ -31,3 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
       return true;
     }
   });
+
+
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}

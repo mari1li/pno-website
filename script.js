@@ -42,3 +42,8 @@ function updateImage() {
 //     timer = setInterval(changeSlide, interval);
 //     currentImg = n;
 // }
+
+
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
